@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/*
+    tudo que é em HTML id, em CSS é # (utilizado só num elemento ou num documento <html></html>)
+    tudo que é class em HTML, em CSS é . (utilizado em vários elementos)
+*/
+
+body {
+    background-color: #bdf5c6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color:#274d2d;
+}
+
+h1#principal {
+    text-align: center;
+    /* pode ser também escrever #principal {}. Ele é um seletor personalizado*/
+    background-color: #64A36D;
+    color: white;
+}
+h2 {
+    color: #389247;
+}
+
+.basico {
+    color: #389247
+}
+
+.intermediario {
+    color: #929138
+}
+
+.avancado {
+    color: #923838
+}
+
+.destaque {
+    background-color: rgba(230, 230, 120, 0.479);
+}
